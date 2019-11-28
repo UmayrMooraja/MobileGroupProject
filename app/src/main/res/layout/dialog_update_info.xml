@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/phoneNumber"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_licensePlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/carPlate"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_cardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/cardNumber"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_expirationData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/expiryDate"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_cardName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/cardName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_cvvNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/cvv"
+        android:inputType="textPersonName" />
+
+</LinearLayout>

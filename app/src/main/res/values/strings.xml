@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">ParkingProject</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signUp">Not a member yet? Sign up here</string>
+    <string name="rememberMe">Remember Me</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="signUpTitle">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="carPlate">Car Plate Number</string>
+    <string name="cardInformation">Card Information</string>
+    <string name="cardNumber">Card Number</string>
+    <string name="expiryDate">Expiry Date</string>
+    <string name="cardName">Name on Card</string>
+    <string name="cvv">CVV number</string>
+    <string name="signIn">Sign In</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="updateInfo">Update Information</string>
+    <string name="add_parking">Add Parking</string>
+    <string name="view_receipt">View Receipt</string>
+    <string name="view_receipt_list">View Receipt List</string>
+    <string name="parking_lot_app">Parking Lot App</string>
+    <string name="search_parking">Search Nearby Parking Facilities</string>
+    <string name="update_user_profile">Update User Profile</string>
+    <string name="parking_app_manual">Parking App Manual</string>
+    <string name="customer_support">Consumer Support</string>
+    <string name="enter">Enter</string>
+    <string name="building_code">Building Code</string>
+    <string name="num_hours">No. Hours Intended to Park</string>
+    <string name="car_plate_num">Car Plate Number</string>
+    <string name="suit_num">Suit No. of Host</string>
+
+    <string name="less_than_one">Less than one hour</string>
+    <string name="up_to_three">Up to three hours</string>
+    <string name="up_to_ten">Up to ten hours</string>
+    <string name="daily_max">Daily max (24 hours)</string>
+    <string name="parking_receipt">Parking Receipt</string>
+    <string name="date_parking">Date</string>
+    <string name="cost_of_parking">Cost of Parking</string>
+    <string name="num_hours_parked">No. Hours Parked</string>
+    <string name="back">Back</string>
+    <string-array name="num_hours_array">
+        <item>@string/less_than_one</item>
+        <item>@string/up_to_three</item>
+        <item>@string/up_to_ten</item>
+        <item>@string/daily_max</item>
+    </string-array>
+
+</resources>
