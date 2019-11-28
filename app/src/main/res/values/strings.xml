@@ -40,6 +40,9 @@
     <string name="cost_of_parking">Cost of Parking</string>
     <string name="num_hours_parked">No. Hours Parked</string>
     <string name="back">Back</string>
+    <string name="call">Call</string>
+    <string name="support">For Support Inquries Regarding this Application feel free to contact us at:</string>
+    <string name="title_activity_nearbyparking">Map</string>
     <string-array name="num_hours_array">
         <item>@string/less_than_one</item>
         <item>@string/up_to_three</item>
