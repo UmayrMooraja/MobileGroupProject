@@ -6,6 +6,7 @@ import androidx.lifecycle.Observer;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -115,15 +116,23 @@ public class ParkingLot extends AppCompatActivity implements View.OnClickListene
     }
 
     private void openSearchParkingActivity() {
+        Intent parkingIntent = new Intent(this, NearbyparkingActivity.class);
+        startActivity(parkingIntent);
 
     }
 
     private void openParkingAppManualActivity() {
 
+        //tring url = ;
+
+        Intent manual=new Intent(Intent.ACTION_VIEW, Uri.parse("file:///android_asset/html/app_manual.html"));
+        startActivity(manual);
 
     }
 
     private void openCustomerSupportActivity() {
+        Intent supportIntent = new Intent(this, SupportActivity.class);
+        startActivity(supportIntent);
 
     }
 
